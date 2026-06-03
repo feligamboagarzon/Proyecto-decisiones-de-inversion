@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-bg: #ffffff;
+  --color-sidebar: #f2f2f2;
+  --color-metric-bg: #fcfcfc;
+  --color-text: #000000;
+  --color-border: #000000;
+  --color-primary: #002244;
+  --color-primary-hover: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text);
+  font-weight: 700;
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* Base Layout */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: 2px solid var(--color-border);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+button.primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+  font-weight: 700;
+}
+
+button.primary:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-primary);
+}
+
+/* Forms */
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid var(--color-border);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+/* Grid System */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+
+/* Metrics */
+.metric-container {
+  border: 2px solid var(--color-border);
+  background-color: var(--color-metric-bg);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.metric-label {
+  font-weight: 700;
+  color: var(--color-text);
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.metric-value {
+  font-weight: 400;
+  color: var(--color-text);
+  font-family: 'Inter', monospace !important;
+  font-size: 1.5rem;
+}
+
+.metric-container.highlight {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+.metric-container.highlight .metric-label {
+  color: #888888;
+}
+
+.metric-container.highlight .metric-value {
+  color: var(--color-bg);
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* Placeholders */
+.chart-placeholder {
+  border: 2px dashed var(--color-border);
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #666;
+  font-weight: 500;
+  margin-top: 1rem;
+  background-color: var(--color-metric-bg);
+}
+
+/* Flow Mode Selector */
+.flow-mode-selector {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.flow-mode-selector .radio-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.flow-mode-selector .radio-label input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  cursor: pointer;
+  appearance: none;
+  border: 2px solid var(--color-border);
+  background-color: var(--color-bg);
+  position: relative;
+}
+
+.flow-mode-selector .radio-label input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background-color: var(--color-text);
+}
+
+.flow-mode-selector .radio-text {
+  font-weight: 500;
+}
+
+/* Custom Flows Table */
+.flows-table {
+  border: 2px solid var(--color-border);
+  max-width: 500px;
+}
+
+.flows-header {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+.flows-row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  border-top: 1px solid var(--color-border);
+}
+
+.flows-cell {
+  padding: 0.5rem 0.8rem;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.flows-cell--header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.flows-row .flows-cell:first-child {
+  border-right: 1px solid var(--color-border);
+  font-weight: 700;
+}
+
+.flows-row input {
+  border: none;
+  border-bottom: 2px solid var(--color-border);
+}
+
+/* Recharts Overrides (Brutalist) */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #ddd;
+}
+
+.recharts-text {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Custom Flows Grid (per-period distribution inputs) */
+.custom-flows-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 1.5rem;
+}
+
+.custom-flow-item {
+  border-left: 3px solid var(--color-border);
+  padding-left: 0.8rem;
+}
+
+/* Progress Overlay */
+.progress-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: overlayFadeIn 0.2s ease-out;
+}
+
+@keyframes overlayFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.progress-card {
+  background: #ffffff;
+  border: 3px solid #000;
+  padding: 3rem 4rem;
+  text-align: center;
+  min-width: 420px;
+}
+
+.progress-title {
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.progress-counter {
+  font-family: 'Inter', monospace !important;
+  margin-bottom: 1.5rem;
+}
+
+.progress-current {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  animation: counterPulse 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes counterPulse {
+  from { opacity: 0.7; }
+  to   { opacity: 1; }
+}
+
+.progress-separator {
+  font-size: 1.5rem;
+  color: #999;
+  margin: 0 0.3rem;
+}
+
+.progress-total {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.progress-bar-track {
+  width: 100%;
+  height: 12px;
+  background: #e0e0e0;
+  border: 2px solid #000;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: var(--color-primary);
+  transition: width 0.15s linear;
+  position: relative;
+}
+
+.progress-bar-fill::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 4px,
+    rgba(255,255,255,0.15) 4px,
+    rgba(255,255,255,0.15) 8px
+  );
+  animation: progressStripes 0.6s linear infinite;
+}
+
+@keyframes progressStripes {
+  from { background-position: 0 0; }
+  to   { background-position: 16px 0; }
+}
+
+.progress-percent {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+/* Disabled button state */
+button.primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.primary:disabled:hover {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.creator-footer {
+  position: fixed;
+  bottom: 1rem;
+  right: 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  border: 2px solid var(--color-border);
+  padding: 0.3rem 0.6rem;
+  z-index: 1000;
+  pointer-events: none;
+}
+

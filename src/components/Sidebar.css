@@ -1,0 +1,89 @@
+.sidebar {
+  width: 300px;
+  background-color: var(--color-sidebar);
+  border-right: 3px solid var(--color-border);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar-header h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  border-bottom: none;
+  font-size: 1.8rem;
+}
+
+.sidebar-header .subtitle {
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 1rem;
+}
+
+.sidebar-nav {
+  flex: 1;
+}
+
+.nav-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio-label input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  appearance: none;
+  border: 2px solid var(--color-border);
+  background-color: var(--color-bg);
+  position: relative;
+  border-radius: 50% !important; /* Radio buttons usually need some roundness to look like radios, but if absolute strictness is required, we can make them squares. Let's keep them square to strictly follow the prompt! */
+}
+
+/* Override radio to be square to respect "no border radius" rule strictly */
+.radio-label input[type="radio"] {
+  border-radius: 0 !important;
+}
+
+.radio-label input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background-color: var(--color-text);
+}
+
+.radio-text {
+  font-weight: 500;
+}
+
+.sidebar-footer {
+  border-top: 2px solid var(--color-border);
+  padding-top: 1rem;
+}
+
+.sidebar-footer .caption {
+  font-size: 0.75rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}

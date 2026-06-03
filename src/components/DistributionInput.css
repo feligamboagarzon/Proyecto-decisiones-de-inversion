@@ -1,0 +1,143 @@
+/* DistributionInput Component */
+
+.dist-input {
+  margin-bottom: 1rem;
+}
+
+.dist-input__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.dist-input__label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: block;
+}
+
+.dist-input__unit {
+  font-weight: 400;
+  color: #666;
+}
+
+.dist-input__toggle {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  border: 1px solid #999;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  flex-shrink: 0;
+}
+
+.dist-input__toggle--open {
+  transform: rotate(180deg);
+}
+
+.dist-input__toggle:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Compact display */
+.dist-input__compact {
+  width: 100%;
+}
+
+.dist-input__summary {
+  border: 2px solid var(--color-border);
+  padding: 0.45rem 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: var(--color-metric-bg);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dist-input__badge {
+  display: inline-block;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+/* Expanded Panel */
+.dist-input__panel {
+  border: 2px solid var(--color-border);
+  border-top: none;
+  padding: 0.8rem;
+  background: var(--color-metric-bg);
+}
+
+.dist-input__type-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.dist-input__type-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.dist-input__type-label input[type="radio"] {
+  width: 14px;
+  height: 14px;
+  appearance: none;
+  border: 2px solid var(--color-border);
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.dist-input__type-label input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: var(--color-text);
+}
+
+.dist-input__fields {
+  display: flex;
+  gap: 1rem;
+}
+
+.dist-input__field {
+  flex: 1;
+}
+
+.dist-input__field label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.dist-input__field input {
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border: 2px solid var(--color-border);
+  font-size: 0.95rem;
+}
