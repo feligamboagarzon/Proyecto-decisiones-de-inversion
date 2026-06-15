@@ -1,0 +1,102 @@
+{
+  "eslint.config.js": {
+    "mtime": 1779664290.3293526,
+    "ast_hash": "3aa4b57d7f08181d86bde52a4dcb7f22",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1779664731.990292,
+    "ast_hash": "c2bba4802d68290b69f6b77894dddc67",
+    "semantic_hash": ""
+  },
+  "src/App.jsx": {
+    "mtime": 1780509726.6526976,
+    "ast_hash": "5ac04790fd625fb082640e3ca4272cb3",
+    "semantic_hash": ""
+  },
+  "src/components/DistributionInput.jsx": {
+    "mtime": 1780509654.7593875,
+    "ast_hash": "c208f8d578adb8652f28957ab06346e7",
+    "semantic_hash": ""
+  },
+  "src/components/ModuleBonds.jsx": {
+    "mtime": 1780509735.7268112,
+    "ast_hash": "b1ec8280a401345257f46d44426d153e",
+    "semantic_hash": ""
+  },
+  "src/components/ModuleMonteCarlo.jsx": {
+    "mtime": 1780509686.112411,
+    "ast_hash": "8f841c3565e8c75e497fe506329b73d1",
+    "semantic_hash": ""
+  },
+  "src/components/ModuleRates.jsx": {
+    "mtime": 1780509699.2953444,
+    "ast_hash": "7deeda368dacbe8dd5a1cb430b1f20c9",
+    "semantic_hash": ""
+  },
+  "src/components/ModuleWaccCapm.jsx": {
+    "mtime": 1780509714.5786006,
+    "ast_hash": "ca53666612380976f72fb004241c8e4d",
+    "semantic_hash": ""
+  },
+  "src/components/Sidebar.jsx": {
+    "mtime": 1780509381.7866828,
+    "ast_hash": "b1d43913d27da49a87df847d7eb71e6c",
+    "semantic_hash": ""
+  },
+  "src/main.jsx": {
+    "mtime": 1779664290.3340871,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": ""
+  },
+  "src/utils/bonds.js": {
+    "mtime": 1780508146.5501368,
+    "ast_hash": "d4f1fa67d064da273e5dd442f4c02586",
+    "semantic_hash": ""
+  },
+  "src/utils/bondsMontecarlo.js": {
+    "mtime": 1780508180.9683297,
+    "ast_hash": "f9fae0559bd7c17e373037e119eac1e4",
+    "semantic_hash": ""
+  },
+  "src/utils/format.js": {
+    "mtime": 1779664992.14008,
+    "ast_hash": "a79c0dc6c460b6ee7ced8e85fab9e82c",
+    "semantic_hash": ""
+  },
+  "src/utils/montecarlo.js": {
+    "mtime": 1780508164.8170488,
+    "ast_hash": "e46fd01bbb36f8f0cf2ab4cd04c256cd",
+    "semantic_hash": ""
+  },
+  "src/utils/rates.js": {
+    "mtime": 1780508242.282192,
+    "ast_hash": "38b1867894006a190e4fa388b4f827bb",
+    "semantic_hash": ""
+  },
+  "src/utils/waccCapm.js": {
+    "mtime": 1780509351.0403583,
+    "ast_hash": "dc67a24aa9b3bae72e29172ada45a20b",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1781442682.599676,
+    "ast_hash": "b9c8e4ab5be360ce88e6d6734887ffaf",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1779664290.328446,
+    "ast_hash": "a28dc4cb878325f3e9e5649f3e1469ac",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1779665651.967206,
+    "ast_hash": "af18aad8403921b479308552c991156d",
+    "semantic_hash": ""
+  },
+  "instrucciones.md": {
+    "mtime": 1780508234.605725,
+    "ast_hash": "681d9c4cb7e9e18f2d1a05f81487a189",
+    "semantic_hash": ""
+  }
+}
