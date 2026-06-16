@@ -1,16 +1,16 @@
-# Graph Report - Proyecto decisiones de inversion  (2026-06-15)
+# Graph Report - Proyecto decisiones de inversion  (2026-06-16)
 
 ## Corpus Check
-- 19 files · ~8,245 words
+- 22 files · ~10,641 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 83 nodes · 135 edges · 11 communities
+- 111 nodes · 160 edges · 14 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ce45887d`
+- Built from commit: `4a10abef`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,18 +24,21 @@
 - [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `formatPercentage()` - 9 edges
-2. `ModuleRates()` - 7 edges
-3. `ModuleBonds()` - 6 edges
-4. `ModuleMonteCarlo()` - 6 edges
-5. `formatCurrency()` - 6 edges
-6. `scripts` - 5 edges
-7. `ModuleWaccCapm()` - 5 edges
-8. `formatNumber()` - 5 edges
-9. `calculateBondPrice()` - 4 edges
-10. `sampleFromSpec()` - 4 edges
+1. `CLAUDE.md — Reglas para Claude en el pipeline multi-modelo` - 11 edges
+2. `formatPercentage()` - 9 edges
+3. `ModuleRates()` - 7 edges
+4. `ModuleBonds()` - 6 edges
+5. `ModuleMonteCarlo()` - 6 edges
+6. `formatCurrency()` - 6 edges
+7. `GEMINI.md — Reglas para Gemini en el pipeline multi-modelo` - 6 edges
+8. `scripts` - 5 edges
+9. `ModuleWaccCapm()` - 5 edges
+10. `formatNumber()` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `ModuleRates()` --calls--> `formatPercentage()`  [EXTRACTED]
@@ -52,7 +55,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (11 total, 0 thin omitted)
+## Communities (14 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.14
@@ -90,18 +93,32 @@ Nodes (5): boxMullerRandom(), calculateIRR(), calculateNPV(), runMonteCarloSimul
 Cohesion: 0.50
 Nodes (3): Expanding the ESLint configuration, React Compiler, React + Vite
 
+### Community 11 - "Community 11"
+Cohesion: 0.12
+Nodes (16): 1.1 Intercepción de Tareas sin Plan de Implementación (Ahorro de Costos), 1. Quién eres en este flujo, 2. Regla de oro: graph-first (ahorro de tokens), 3. Regla inquebrantable: Aislamiento de contexto (Lazy Loading), 4. Etapa 2 — Código pesado / complejo, 5. Etapa 5 — Ejecutar y corregir tests, 6. Protocolo de handoff, 7.1. Lectura por rangos, no archivos completos (idea 7) (+8 more)
+
+### Community 12 - "Community 12"
+Cohesion: 0.29
+Nodes (6): 1. Tu rol (etapas 1, 1b, 4), 2. Graph-first (ahorro de tokens), 3. Contrato de Lazy Loading (aislamiento de contexto), 4. Handoff, 5. Lectura de documentos, GEMINI.md — Reglas para Gemini en el pipeline multi-modelo
+
+### Community 13 - "Community 13"
+Cohesion: 0.50
+Nodes (3): Cómo usarla, Handoff <!-- fecha: YYYY-MM-DD · proyecto: <nombre> -->, HANDOFF — Resumen de nodos modificados (etapa 2 → etapa 4)
+
 ## Knowledge Gaps
-- **27 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+22 more)
+- **47 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+42 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Community 3` to `Community 0`?**
-  _High betweenness centrality (0.049) - this node is a cross-community bridge._
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
 - **Why does `formatPercentage()` connect `Community 1` to `Community 2`, `Community 5`?**
-  _High betweenness centrality (0.037) - this node is a cross-community bridge._
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _27 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _47 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+- **Should `Community 11` be split into smaller, more focused modules?**
+  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._

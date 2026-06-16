@@ -98,5 +98,20 @@
     "mtime": 1780508234.605725,
     "ast_hash": "681d9c4cb7e9e18f2d1a05f81487a189",
     "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1781634092.3759575,
+    "ast_hash": "eb151217c4ddd3e7b6b274dae4703f25",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1781634092.3809566,
+    "ast_hash": "c2ddad43a468c455d187fb0395aee650",
+    "semantic_hash": ""
+  },
+  "HANDOFF.md": {
+    "mtime": 1781634092.3863358,
+    "ast_hash": "87b3ef747f5eec9a0cb8c644c3083010",
+    "semantic_hash": ""
   }
 }

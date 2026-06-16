@@ -704,6 +704,286 @@
       "norm_label": "vite.config.js"
     },
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 11,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md \u2014 Reglas para Claude en el pipeline multi-modelo",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "community": 11,
+      "norm_label": "claude.md \u2014 reglas para claude en el pipeline multi-modelo"
+    },
+    {
+      "label": "1. Qui\u00e9n eres en este flujo",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_1_qui\u00e9n_eres_en_este_flujo",
+      "community": 11,
+      "norm_label": "1. quien eres en este flujo"
+    },
+    {
+      "label": "1.1 Intercepci\u00f3n de Tareas sin Plan de Implementaci\u00f3n (Ahorro de Costos)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "claude_1_1_intercepci\u00f3n_de_tareas_sin_plan_de_implementaci\u00f3n_ahorro_de_costos",
+      "community": 11,
+      "norm_label": "1.1 intercepcion de tareas sin plan de implementacion (ahorro de costos)"
+    },
+    {
+      "label": "2. Regla de oro: graph-first (ahorro de tokens)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "claude_2_regla_de_oro_graph_first_ahorro_de_tokens",
+      "community": 11,
+      "norm_label": "2. regla de oro: graph-first (ahorro de tokens)"
+    },
+    {
+      "label": "3. Regla inquebrantable: Aislamiento de contexto (Lazy Loading)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "claude_3_regla_inquebrantable_aislamiento_de_contexto_lazy_loading",
+      "community": 11,
+      "norm_label": "3. regla inquebrantable: aislamiento de contexto (lazy loading)"
+    },
+    {
+      "label": "4. Etapa 2 \u2014 C\u00f3digo pesado / complejo",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "claude_4_etapa_2_c\u00f3digo_pesado_complejo",
+      "community": 11,
+      "norm_label": "4. etapa 2 \u2014 codigo pesado / complejo"
+    },
+    {
+      "label": "5. Etapa 5 \u2014 Ejecutar y corregir tests",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "claude_5_etapa_5_ejecutar_y_corregir_tests",
+      "community": 11,
+      "norm_label": "5. etapa 5 \u2014 ejecutar y corregir tests"
+    },
+    {
+      "label": "6. Protocolo de handoff",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "claude_6_protocolo_de_handoff",
+      "community": 11,
+      "norm_label": "6. protocolo de handoff"
+    },
+    {
+      "label": "7. Disciplina de tokens (resumen operativo)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L140",
+      "_origin": "ast",
+      "id": "claude_7_disciplina_de_tokens_resumen_operativo",
+      "community": 11,
+      "norm_label": "7. disciplina de tokens (resumen operativo)"
+    },
+    {
+      "label": "7.1. Lectura por rangos, no archivos completos (idea 7)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L150",
+      "_origin": "ast",
+      "id": "claude_7_1_lectura_por_rangos_no_archivos_completos_idea_7",
+      "community": 11,
+      "norm_label": "7.1. lectura por rangos, no archivos completos (idea 7)"
+    },
+    {
+      "label": "7.2. RTK auto-reescritura ACTIVA \u2014 no la pelees (idea 8)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L156",
+      "_origin": "ast",
+      "id": "claude_7_2_rtk_auto_reescritura_activa_no_la_pelees_idea_8",
+      "community": 11,
+      "norm_label": "7.2. rtk auto-reescritura activa \u2014 no la pelees (idea 8)"
+    },
+    {
+      "label": "7.3. Lectura de documentos (idea 4)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "claude_7_3_lectura_de_documentos_idea_4",
+      "community": 11,
+      "norm_label": "7.3. lectura de documentos (idea 4)"
+    },
+    {
+      "label": "7.4. Contexto cacheable / prompt caching (idea 2)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L171",
+      "_origin": "ast",
+      "id": "claude_7_4_contexto_cacheable_prompt_caching_idea_2",
+      "community": 11,
+      "norm_label": "7.4. contexto cacheable / prompt caching (idea 2)"
+    },
+    {
+      "label": "8. Qu\u00e9 NO hacer",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "claude_8_qu\u00e9_no_hacer",
+      "community": 11,
+      "norm_label": "8. que no hacer"
+    },
+    {
+      "label": "9. Notas del entorno",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L193",
+      "_origin": "ast",
+      "id": "claude_9_notas_del_entorno",
+      "community": 11,
+      "norm_label": "9. notas del entorno"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L202",
+      "_origin": "ast",
+      "id": "claude_graphify",
+      "community": 11,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "GEMINI.md",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "gemini",
+      "community": 12,
+      "norm_label": "gemini.md"
+    },
+    {
+      "label": "GEMINI.md \u2014 Reglas para Gemini en el pipeline multi-modelo",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "community": 12,
+      "norm_label": "gemini.md \u2014 reglas para gemini en el pipeline multi-modelo"
+    },
+    {
+      "label": "1. Tu rol (etapas 1, 1b, 4)",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "gemini_1_tu_rol_etapas_1_1b_4",
+      "community": 12,
+      "norm_label": "1. tu rol (etapas 1, 1b, 4)"
+    },
+    {
+      "label": "2. Graph-first (ahorro de tokens)",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "gemini_2_graph_first_ahorro_de_tokens",
+      "community": 12,
+      "norm_label": "2. graph-first (ahorro de tokens)"
+    },
+    {
+      "label": "3. Contrato de Lazy Loading (aislamiento de contexto)",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "gemini_3_contrato_de_lazy_loading_aislamiento_de_contexto",
+      "community": 12,
+      "norm_label": "3. contrato de lazy loading (aislamiento de contexto)"
+    },
+    {
+      "label": "4. Handoff",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "gemini_4_handoff",
+      "community": 12,
+      "norm_label": "4. handoff"
+    },
+    {
+      "label": "5. Lectura de documentos",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "gemini_5_lectura_de_documentos",
+      "community": 12,
+      "norm_label": "5. lectura de documentos"
+    },
+    {
+      "label": "HANDOFF.md",
+      "file_type": "document",
+      "source_file": "HANDOFF.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "handoff",
+      "community": 13,
+      "norm_label": "handoff.md"
+    },
+    {
+      "label": "HANDOFF \u2014 Resumen de nodos modificados (etapa 2 \u2192 etapa 4)",
+      "file_type": "document",
+      "source_file": "HANDOFF.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "handoff_handoff_resumen_de_nodos_modificados_etapa_2_etapa_4",
+      "community": 13,
+      "norm_label": "handoff \u2014 resumen de nodos modificados (etapa 2 \u2192 etapa 4)"
+    },
+    {
+      "label": "C\u00f3mo usarla",
+      "file_type": "document",
+      "source_file": "HANDOFF.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "handoff_c\u00f3mo_usarla",
+      "community": 13,
+      "norm_label": "como usarla"
+    },
+    {
+      "label": "Handoff <!-- fecha: YYYY-MM-DD \u00b7 proyecto: <nombre> -->",
+      "file_type": "document",
+      "source_file": "HANDOFF.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "handoff_handoff_fecha_yyyy_mm_dd_proyecto_nombre",
+      "community": 13,
+      "norm_label": "handoff <!-- fecha: yyyy-mm-dd \u00b7 proyecto: <nombre> -->"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
@@ -841,9 +1121,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies",
-      "confidence_score": 1.0
+      "target": "package_dependencies"
     },
     {
       "relation": "contains",
@@ -851,9 +1131,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_devdependencies",
-      "confidence_score": 1.0
+      "target": "package_devdependencies"
     },
     {
       "relation": "contains",
@@ -861,9 +1141,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name",
-      "confidence_score": 1.0
+      "target": "package_name"
     },
     {
       "relation": "contains",
@@ -871,9 +1151,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_private",
-      "confidence_score": 1.0
+      "target": "package_private"
     },
     {
       "relation": "contains",
@@ -881,9 +1161,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts",
-      "confidence_score": 1.0
+      "target": "package_scripts"
     },
     {
       "relation": "contains",
@@ -891,9 +1171,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_type",
-      "confidence_score": 1.0
+      "target": "package_type"
     },
     {
       "relation": "contains",
@@ -901,9 +1181,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version",
-      "confidence_score": 1.0
+      "target": "package_version"
     },
     {
       "relation": "contains",
@@ -911,9 +1191,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_build",
-      "confidence_score": 1.0
+      "target": "package_scripts_build"
     },
     {
       "relation": "contains",
@@ -921,9 +1201,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -931,9 +1211,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_lint",
-      "confidence_score": 1.0
+      "target": "package_scripts_lint"
     },
     {
       "relation": "contains",
@@ -941,9 +1221,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_preview",
-      "confidence_score": 1.0
+      "target": "package_scripts_preview"
     },
     {
       "relation": "contains",
@@ -951,9 +1231,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_react",
-      "confidence_score": 1.0
+      "target": "package_dependencies_react"
     },
     {
       "relation": "contains",
@@ -961,9 +1241,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_react_dom",
-      "confidence_score": 1.0
+      "target": "package_dependencies_react_dom"
     },
     {
       "relation": "contains",
@@ -971,9 +1251,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_recharts",
-      "confidence_score": 1.0
+      "target": "package_dependencies_recharts"
     },
     {
       "relation": "contains",
@@ -981,9 +1261,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint"
     },
     {
       "relation": "contains",
@@ -991,9 +1271,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_js",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint_js"
     },
     {
       "relation": "contains",
@@ -1001,9 +1281,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_plugin_react_hooks",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint_plugin_react_hooks"
     },
     {
       "relation": "contains",
@@ -1011,9 +1291,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_plugin_react_refresh",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint_plugin_react_refresh"
     },
     {
       "relation": "contains",
@@ -1021,9 +1301,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_globals",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_globals"
     },
     {
       "relation": "contains",
@@ -1031,9 +1311,9 @@
       "source_file": "package.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_react",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_react"
     },
     {
       "relation": "contains",
@@ -1041,9 +1321,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_react_dom",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_react_dom"
     },
     {
       "relation": "contains",
@@ -1051,9 +1331,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_vite",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_vite"
     },
     {
       "relation": "contains",
@@ -1061,9 +1341,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_vitejs_plugin_react",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_vitejs_plugin_react"
     },
     {
       "relation": "imports_from",
@@ -1072,9 +1352,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_modulebonds",
-      "confidence_score": 1.0
+      "target": "components_modulebonds"
     },
     {
       "relation": "imports",
@@ -1083,9 +1363,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_modulebonds_modulebonds",
-      "confidence_score": 1.0
+      "target": "components_modulebonds_modulebonds"
     },
     {
       "relation": "imports_from",
@@ -1094,9 +1374,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_modulemontecarlo",
-      "confidence_score": 1.0
+      "target": "components_modulemontecarlo"
     },
     {
       "relation": "imports",
@@ -1105,9 +1385,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_modulemontecarlo_modulemontecarlo",
-      "confidence_score": 1.0
+      "target": "components_modulemontecarlo_modulemontecarlo"
     },
     {
       "relation": "imports_from",
@@ -1116,9 +1396,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_modulerates",
-      "confidence_score": 1.0
+      "target": "components_modulerates"
     },
     {
       "relation": "imports",
@@ -1127,9 +1407,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_modulerates_modulerates",
-      "confidence_score": 1.0
+      "target": "components_modulerates_modulerates"
     },
     {
       "relation": "imports_from",
@@ -1138,9 +1418,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_modulewacccapm",
-      "confidence_score": 1.0
+      "target": "components_modulewacccapm"
     },
     {
       "relation": "imports",
@@ -1149,9 +1429,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_modulewacccapm_modulewacccapm",
-      "confidence_score": 1.0
+      "target": "components_modulewacccapm_modulewacccapm"
     },
     {
       "relation": "imports_from",
@@ -1160,9 +1440,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_sidebar",
-      "confidence_score": 1.0
+      "target": "components_sidebar"
     },
     {
       "relation": "imports",
@@ -1171,9 +1451,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_sidebar_sidebar",
-      "confidence_score": 1.0
+      "target": "components_sidebar_sidebar"
     },
     {
       "relation": "contains",
@@ -1181,9 +1461,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "imports_from",
@@ -1192,9 +1472,9 @@
       "source_file": "src/main.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_app",
-      "confidence_score": 1.0
+      "target": "src_app"
     },
     {
       "relation": "imports",
@@ -1203,9 +1483,9 @@
       "source_file": "src/main.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "contains",
@@ -1213,9 +1493,9 @@
       "source_file": "src/components/DistributionInput.jsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_distributioninput",
-      "target": "components_distributioninput_distributioninput",
-      "confidence_score": 1.0
+      "target": "components_distributioninput_distributioninput"
     },
     {
       "relation": "imports_from",
@@ -1224,9 +1504,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "components_distributioninput",
-      "confidence_score": 1.0
+      "target": "components_distributioninput"
     },
     {
       "relation": "imports_from",
@@ -1235,9 +1515,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "components_distributioninput",
-      "confidence_score": 1.0
+      "target": "components_distributioninput"
     },
     {
       "relation": "imports",
@@ -1246,9 +1526,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "components_distributioninput_distributioninput",
-      "confidence_score": 1.0
+      "target": "components_distributioninput_distributioninput"
     },
     {
       "relation": "imports",
@@ -1257,9 +1537,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "components_distributioninput_distributioninput",
-      "confidence_score": 1.0
+      "target": "components_distributioninput_distributioninput"
     },
     {
       "relation": "contains",
@@ -1267,9 +1547,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "components_modulebonds_modulebonds",
-      "confidence_score": 1.0
+      "target": "components_modulebonds_modulebonds"
     },
     {
       "relation": "imports_from",
@@ -1278,9 +1558,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "utils_bondsmontecarlo",
-      "confidence_score": 1.0
+      "target": "utils_bondsmontecarlo"
     },
     {
       "relation": "imports",
@@ -1289,9 +1569,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "utils_bondsmontecarlo_runbondsmontecarloasync",
-      "confidence_score": 1.0
+      "target": "utils_bondsmontecarlo_runbondsmontecarloasync"
     },
     {
       "relation": "imports_from",
@@ -1300,9 +1580,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "utils_format",
-      "confidence_score": 1.0
+      "target": "utils_format"
     },
     {
       "relation": "imports",
@@ -1311,9 +1591,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "utils_format_formatcurrency",
-      "confidence_score": 1.0
+      "target": "utils_format_formatcurrency"
     },
     {
       "relation": "imports",
@@ -1322,9 +1602,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "utils_format_formatnumber",
-      "confidence_score": 1.0
+      "target": "utils_format_formatnumber"
     },
     {
       "relation": "imports",
@@ -1333,9 +1613,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "calls",
@@ -1344,9 +1624,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds_modulebonds",
-      "target": "utils_bondsmontecarlo_runbondsmontecarloasync",
-      "confidence_score": 1.0
+      "target": "utils_bondsmontecarlo_runbondsmontecarloasync"
     },
     {
       "relation": "calls",
@@ -1355,9 +1635,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds_modulebonds",
-      "target": "utils_format_formatcurrency",
-      "confidence_score": 1.0
+      "target": "utils_format_formatcurrency"
     },
     {
       "relation": "calls",
@@ -1366,9 +1646,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds_modulebonds",
-      "target": "utils_format_formatnumber",
-      "confidence_score": 1.0
+      "target": "utils_format_formatnumber"
     },
     {
       "relation": "calls",
@@ -1377,9 +1657,9 @@
       "source_file": "src/components/ModuleBonds.jsx",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulebonds_modulebonds",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "contains",
@@ -1387,9 +1667,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "components_modulemontecarlo_modulemontecarlo",
-      "confidence_score": 1.0
+      "target": "components_modulemontecarlo_modulemontecarlo"
     },
     {
       "relation": "imports_from",
@@ -1398,9 +1678,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "utils_format",
-      "confidence_score": 1.0
+      "target": "utils_format"
     },
     {
       "relation": "imports",
@@ -1409,9 +1689,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "utils_format_formatcurrency",
-      "confidence_score": 1.0
+      "target": "utils_format_formatcurrency"
     },
     {
       "relation": "imports",
@@ -1420,9 +1700,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "utils_format_formatnumber",
-      "confidence_score": 1.0
+      "target": "utils_format_formatnumber"
     },
     {
       "relation": "imports",
@@ -1431,9 +1711,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "imports_from",
@@ -1442,9 +1722,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "utils_montecarlo",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo"
     },
     {
       "relation": "imports",
@@ -1453,9 +1733,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo",
-      "target": "utils_montecarlo_runmontecarloasync",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_runmontecarloasync"
     },
     {
       "relation": "calls",
@@ -1464,9 +1744,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo_modulemontecarlo",
-      "target": "utils_format_formatcurrency",
-      "confidence_score": 1.0
+      "target": "utils_format_formatcurrency"
     },
     {
       "relation": "calls",
@@ -1475,9 +1755,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo_modulemontecarlo",
-      "target": "utils_format_formatnumber",
-      "confidence_score": 1.0
+      "target": "utils_format_formatnumber"
     },
     {
       "relation": "calls",
@@ -1486,9 +1766,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo_modulemontecarlo",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "calls",
@@ -1497,9 +1777,9 @@
       "source_file": "src/components/ModuleMonteCarlo.jsx",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulemontecarlo_modulemontecarlo",
-      "target": "utils_montecarlo_runmontecarloasync",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_runmontecarloasync"
     },
     {
       "relation": "contains",
@@ -1507,9 +1787,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates",
-      "target": "components_modulerates_modulerates",
-      "confidence_score": 1.0
+      "target": "components_modulerates_modulerates"
     },
     {
       "relation": "imports_from",
@@ -1518,9 +1798,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates",
-      "target": "utils_format",
-      "confidence_score": 1.0
+      "target": "utils_format"
     },
     {
       "relation": "imports",
@@ -1529,9 +1809,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "imports_from",
@@ -1540,9 +1820,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates",
-      "target": "utils_rates",
-      "confidence_score": 1.0
+      "target": "utils_rates"
     },
     {
       "relation": "imports",
@@ -1551,9 +1831,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates",
-      "target": "utils_rates_calculateforeigncurrencyrate",
-      "confidence_score": 1.0
+      "target": "utils_rates_calculateforeigncurrencyrate"
     },
     {
       "relation": "imports",
@@ -1562,9 +1842,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates",
-      "target": "utils_rates_calculaterealrate",
-      "confidence_score": 1.0
+      "target": "utils_rates_calculaterealrate"
     },
     {
       "relation": "imports",
@@ -1573,9 +1853,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates",
-      "target": "utils_rates_converttoea",
-      "confidence_score": 1.0
+      "target": "utils_rates_converttoea"
     },
     {
       "relation": "imports",
@@ -1584,9 +1864,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates",
-      "target": "utils_rates_generateequivalentratesmatrix",
-      "confidence_score": 1.0
+      "target": "utils_rates_generateequivalentratesmatrix"
     },
     {
       "relation": "calls",
@@ -1595,9 +1875,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates_modulerates",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "calls",
@@ -1606,9 +1886,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates_modulerates",
-      "target": "utils_rates_calculateforeigncurrencyrate",
-      "confidence_score": 1.0
+      "target": "utils_rates_calculateforeigncurrencyrate"
     },
     {
       "relation": "calls",
@@ -1617,9 +1897,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates_modulerates",
-      "target": "utils_rates_calculaterealrate",
-      "confidence_score": 1.0
+      "target": "utils_rates_calculaterealrate"
     },
     {
       "relation": "calls",
@@ -1628,9 +1908,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates_modulerates",
-      "target": "utils_rates_converttoea",
-      "confidence_score": 1.0
+      "target": "utils_rates_converttoea"
     },
     {
       "relation": "calls",
@@ -1639,9 +1919,9 @@
       "source_file": "src/components/ModuleRates.jsx",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulerates_modulerates",
-      "target": "utils_rates_generateequivalentratesmatrix",
-      "confidence_score": 1.0
+      "target": "utils_rates_generateequivalentratesmatrix"
     },
     {
       "relation": "contains",
@@ -1649,9 +1929,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm",
-      "target": "components_modulewacccapm_modulewacccapm",
-      "confidence_score": 1.0
+      "target": "components_modulewacccapm_modulewacccapm"
     },
     {
       "relation": "imports_from",
@@ -1660,9 +1940,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm",
-      "target": "utils_format",
-      "confidence_score": 1.0
+      "target": "utils_format"
     },
     {
       "relation": "imports",
@@ -1671,9 +1951,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm",
-      "target": "utils_format_formatcurrency",
-      "confidence_score": 1.0
+      "target": "utils_format_formatcurrency"
     },
     {
       "relation": "imports",
@@ -1682,9 +1962,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "imports_from",
@@ -1693,9 +1973,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm",
-      "target": "utils_wacccapm",
-      "confidence_score": 1.0
+      "target": "utils_wacccapm"
     },
     {
       "relation": "imports",
@@ -1704,9 +1984,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm",
-      "target": "utils_wacccapm_calculatecapm",
-      "confidence_score": 1.0
+      "target": "utils_wacccapm_calculatecapm"
     },
     {
       "relation": "imports",
@@ -1715,9 +1995,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm",
-      "target": "utils_wacccapm_calculatewacc",
-      "confidence_score": 1.0
+      "target": "utils_wacccapm_calculatewacc"
     },
     {
       "relation": "calls",
@@ -1726,9 +2006,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm_modulewacccapm",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "calls",
@@ -1737,9 +2017,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm_modulewacccapm",
-      "target": "utils_wacccapm_calculatecapm",
-      "confidence_score": 1.0
+      "target": "utils_wacccapm_calculatecapm"
     },
     {
       "relation": "calls",
@@ -1748,9 +2028,9 @@
       "source_file": "src/components/ModuleWaccCapm.jsx",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_modulewacccapm_modulewacccapm",
-      "target": "utils_wacccapm_calculatewacc",
-      "confidence_score": 1.0
+      "target": "utils_wacccapm_calculatewacc"
     },
     {
       "relation": "contains",
@@ -1758,9 +2038,9 @@
       "source_file": "src/components/Sidebar.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sidebar",
-      "target": "components_sidebar_sidebar",
-      "confidence_score": 1.0
+      "target": "components_sidebar_sidebar"
     },
     {
       "relation": "contains",
@@ -1768,9 +2048,9 @@
       "source_file": "src/utils/bonds.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bonds",
-      "target": "utils_bonds_calculatebondprice",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculatebondprice"
     },
     {
       "relation": "contains",
@@ -1778,9 +2058,9 @@
       "source_file": "src/utils/bonds.js",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bonds",
-      "target": "utils_bonds_calculateconvexity",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculateconvexity"
     },
     {
       "relation": "contains",
@@ -1788,9 +2068,9 @@
       "source_file": "src/utils/bonds.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bonds",
-      "target": "utils_bonds_calculatemacaulayduration",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculatemacaulayduration"
     },
     {
       "relation": "contains",
@@ -1798,9 +2078,9 @@
       "source_file": "src/utils/bonds.js",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bonds",
-      "target": "utils_bonds_calculatemodifiedduration",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculatemodifiedduration"
     },
     {
       "relation": "imports_from",
@@ -1809,9 +2089,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_bonds",
-      "confidence_score": 1.0
+      "target": "utils_bonds"
     },
     {
       "relation": "calls",
@@ -1820,9 +2100,9 @@
       "source_file": "src/utils/bonds.js",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bonds_calculateconvexity",
-      "target": "utils_bonds_calculatebondprice",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculatebondprice"
     },
     {
       "relation": "calls",
@@ -1831,9 +2111,9 @@
       "source_file": "src/utils/bonds.js",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bonds_calculatemacaulayduration",
-      "target": "utils_bonds_calculatebondprice",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculatebondprice"
     },
     {
       "relation": "imports",
@@ -1842,9 +2122,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_bonds_calculatebondprice",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculatebondprice"
     },
     {
       "relation": "imports",
@@ -1853,9 +2133,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_bonds_calculatemacaulayduration",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculatemacaulayduration"
     },
     {
       "relation": "imports",
@@ -1864,9 +2144,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_bonds_calculatemodifiedduration",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculatemodifiedduration"
     },
     {
       "relation": "imports",
@@ -1875,9 +2155,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_bonds_calculateconvexity",
-      "confidence_score": 1.0
+      "target": "utils_bonds_calculateconvexity"
     },
     {
       "relation": "contains",
@@ -1885,9 +2165,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_bondsmontecarlo_computebondresults",
-      "confidence_score": 1.0
+      "target": "utils_bondsmontecarlo_computebondresults"
     },
     {
       "relation": "contains",
@@ -1895,9 +2175,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_bondsmontecarlo_runbondsmontecarloasync",
-      "confidence_score": 1.0
+      "target": "utils_bondsmontecarlo_runbondsmontecarloasync"
     },
     {
       "relation": "imports_from",
@@ -1906,9 +2186,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_montecarlo",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo"
     },
     {
       "relation": "imports",
@@ -1917,9 +2197,9 @@
       "source_file": "src/utils/bondsMontecarlo.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_bondsmontecarlo",
-      "target": "utils_montecarlo_samplefromspec",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_samplefromspec"
     },
     {
       "relation": "contains",
@@ -1927,9 +2207,9 @@
       "source_file": "src/utils/format.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_format",
-      "target": "utils_format_formatcurrency",
-      "confidence_score": 1.0
+      "target": "utils_format_formatcurrency"
     },
     {
       "relation": "contains",
@@ -1937,9 +2217,9 @@
       "source_file": "src/utils/format.js",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_format",
-      "target": "utils_format_formatfinancial",
-      "confidence_score": 1.0
+      "target": "utils_format_formatfinancial"
     },
     {
       "relation": "contains",
@@ -1947,9 +2227,9 @@
       "source_file": "src/utils/format.js",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_format",
-      "target": "utils_format_formatnumber",
-      "confidence_score": 1.0
+      "target": "utils_format_formatnumber"
     },
     {
       "relation": "contains",
@@ -1957,9 +2237,9 @@
       "source_file": "src/utils/format.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_format",
-      "target": "utils_format_formatpercentage",
-      "confidence_score": 1.0
+      "target": "utils_format_formatpercentage"
     },
     {
       "relation": "contains",
@@ -1967,9 +2247,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo",
-      "target": "utils_montecarlo_boxmullerrandom",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_boxmullerrandom"
     },
     {
       "relation": "contains",
@@ -1977,9 +2257,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo",
-      "target": "utils_montecarlo_calculateirr",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_calculateirr"
     },
     {
       "relation": "contains",
@@ -1987,9 +2267,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo",
-      "target": "utils_montecarlo_calculatenpv",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_calculatenpv"
     },
     {
       "relation": "contains",
@@ -1997,9 +2277,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L221",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo",
-      "target": "utils_montecarlo_computeresults",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_computeresults"
     },
     {
       "relation": "contains",
@@ -2007,9 +2287,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L280",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo",
-      "target": "utils_montecarlo_runmontecarloasync",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_runmontecarloasync"
     },
     {
       "relation": "contains",
@@ -2017,9 +2297,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L138",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo",
-      "target": "utils_montecarlo_runmontecarlosimulation",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_runmontecarlosimulation"
     },
     {
       "relation": "contains",
@@ -2027,9 +2307,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo",
-      "target": "utils_montecarlo_samplefromspec",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_samplefromspec"
     },
     {
       "relation": "calls",
@@ -2038,9 +2318,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo_samplefromspec",
-      "target": "utils_montecarlo_boxmullerrandom",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_boxmullerrandom"
     },
     {
       "relation": "calls",
@@ -2049,9 +2329,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L149",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo_runmontecarlosimulation",
-      "target": "utils_montecarlo_samplefromspec",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_samplefromspec"
     },
     {
       "relation": "calls",
@@ -2060,9 +2340,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo_calculateirr",
-      "target": "utils_montecarlo_calculatenpv",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_calculatenpv"
     },
     {
       "relation": "calls",
@@ -2071,9 +2351,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo_runmontecarlosimulation",
-      "target": "utils_montecarlo_calculatenpv",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_calculatenpv"
     },
     {
       "relation": "calls",
@@ -2082,9 +2362,9 @@
       "source_file": "src/utils/montecarlo.js",
       "source_location": "L159",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_montecarlo_runmontecarlosimulation",
-      "target": "utils_montecarlo_calculateirr",
-      "confidence_score": 1.0
+      "target": "utils_montecarlo_calculateirr"
     },
     {
       "relation": "contains",
@@ -2092,9 +2372,9 @@
       "source_file": "src/utils/rates.js",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_rates",
-      "target": "utils_rates_calculateforeigncurrencyrate",
-      "confidence_score": 1.0
+      "target": "utils_rates_calculateforeigncurrencyrate"
     },
     {
       "relation": "contains",
@@ -2102,9 +2382,9 @@
       "source_file": "src/utils/rates.js",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_rates",
-      "target": "utils_rates_calculaterealrate",
-      "confidence_score": 1.0
+      "target": "utils_rates_calculaterealrate"
     },
     {
       "relation": "contains",
@@ -2112,9 +2392,9 @@
       "source_file": "src/utils/rates.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_rates",
-      "target": "utils_rates_converttoea",
-      "confidence_score": 1.0
+      "target": "utils_rates_converttoea"
     },
     {
       "relation": "contains",
@@ -2122,9 +2402,9 @@
       "source_file": "src/utils/rates.js",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_rates",
-      "target": "utils_rates_generateequivalentratesmatrix",
-      "confidence_score": 1.0
+      "target": "utils_rates_generateequivalentratesmatrix"
     },
     {
       "relation": "contains",
@@ -2132,9 +2412,9 @@
       "source_file": "src/utils/waccCapm.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_wacccapm",
-      "target": "utils_wacccapm_calculatecapm",
-      "confidence_score": 1.0
+      "target": "utils_wacccapm_calculatecapm"
     },
     {
       "relation": "contains",
@@ -2142,8 +2422,258 @@
       "source_file": "src/utils/waccCapm.js",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_wacccapm",
-      "target": "utils_wacccapm_calculatewacc",
+      "target": "utils_wacccapm_calculatewacc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_1_qui\u00e9n_eres_en_este_flujo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_2_regla_de_oro_graph_first_ahorro_de_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_3_regla_inquebrantable_aislamiento_de_contexto_lazy_loading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_4_etapa_2_c\u00f3digo_pesado_complejo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_5_etapa_5_ejecutar_y_corregir_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_6_protocolo_de_handoff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_7_disciplina_de_tokens_resumen_operativo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_8_qu\u00e9_no_hacer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_9_notas_del_entorno",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "claude_1_qui\u00e9n_eres_en_este_flujo",
+      "target": "claude_1_1_intercepci\u00f3n_de_tareas_sin_plan_de_implementaci\u00f3n_ahorro_de_costos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "claude_7_disciplina_de_tokens_resumen_operativo",
+      "target": "claude_7_1_lectura_por_rangos_no_archivos_completos_idea_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "claude_7_disciplina_de_tokens_resumen_operativo",
+      "target": "claude_7_2_rtk_auto_reescritura_activa_no_la_pelees_idea_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "claude_7_disciplina_de_tokens_resumen_operativo",
+      "target": "claude_7_3_lectura_de_documentos_idea_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "claude_7_disciplina_de_tokens_resumen_operativo",
+      "target": "claude_7_4_contexto_cacheable_prompt_caching_idea_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "gemini",
+      "target": "gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "gemini_1_tu_rol_etapas_1_1b_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "gemini_2_graph_first_ahorro_de_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "gemini_3_contrato_de_lazy_loading_aislamiento_de_contexto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "gemini_4_handoff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "gemini_5_lectura_de_documentos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HANDOFF.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "handoff",
+      "target": "handoff_handoff_resumen_de_nodos_modificados_etapa_2_etapa_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HANDOFF.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "handoff_handoff_resumen_de_nodos_modificados_etapa_2_etapa_4",
+      "target": "handoff_c\u00f3mo_usarla",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HANDOFF.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "handoff_handoff_resumen_de_nodos_modificados_etapa_2_etapa_4",
+      "target": "handoff_handoff_fecha_yyyy_mm_dd_proyecto_nombre",
       "confidence_score": 1.0
     },
     {
@@ -2152,9 +2682,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_react_vite",
-      "confidence_score": 1.0
+      "target": "readme_react_vite"
     },
     {
       "relation": "contains",
@@ -2162,9 +2692,9 @@
       "source_file": "README.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_react_vite",
-      "target": "readme_expanding_the_eslint_configuration",
-      "confidence_score": 1.0
+      "target": "readme_expanding_the_eslint_configuration"
     },
     {
       "relation": "contains",
@@ -2172,9 +2702,9 @@
       "source_file": "README.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_react_vite",
-      "target": "readme_react_compiler",
-      "confidence_score": 1.0
+      "target": "readme_react_compiler"
     },
     {
       "relation": "contains",
@@ -2182,9 +2712,9 @@
       "source_file": "instrucciones.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "instrucciones",
-      "target": "instrucciones_documento_de_arquitectura_y_requerimientos_proyecto_anti_gravity",
-      "confidence_score": 1.0
+      "target": "instrucciones_documento_de_arquitectura_y_requerimientos_proyecto_anti_gravity"
     },
     {
       "relation": "contains",
@@ -2192,9 +2722,9 @@
       "source_file": "instrucciones.md",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "instrucciones_documento_de_arquitectura_y_requerimientos_proyecto_anti_gravity",
-      "target": "instrucciones_plataforma_integral_de_decisiones_de_inversi\u00f3n",
-      "confidence_score": 1.0
+      "target": "instrucciones_plataforma_integral_de_decisiones_de_inversi\u00f3n"
     },
     {
       "relation": "contains",
@@ -2202,9 +2732,9 @@
       "source_file": "instrucciones.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "instrucciones_plataforma_integral_de_decisiones_de_inversi\u00f3n",
-      "target": "instrucciones_1_stack_tecnol\u00f3gico_recomendado",
-      "confidence_score": 1.0
+      "target": "instrucciones_1_stack_tecnol\u00f3gico_recomendado"
     },
     {
       "relation": "contains",
@@ -2212,9 +2742,9 @@
       "source_file": "instrucciones.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "instrucciones_plataforma_integral_de_decisiones_de_inversi\u00f3n",
-      "target": "instrucciones_2_regla_universal_de_precisi\u00f3n",
-      "confidence_score": 1.0
+      "target": "instrucciones_2_regla_universal_de_precisi\u00f3n"
     },
     {
       "relation": "contains",
@@ -2222,9 +2752,9 @@
       "source_file": "instrucciones.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "instrucciones_plataforma_integral_de_decisiones_de_inversi\u00f3n",
-      "target": "instrucciones_3_especificaciones_por_m\u00f3dulo",
-      "confidence_score": 1.0
+      "target": "instrucciones_3_especificaciones_por_m\u00f3dulo"
     },
     {
       "relation": "contains",
@@ -2232,9 +2762,9 @@
       "source_file": "instrucciones.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "instrucciones_3_especificaciones_por_m\u00f3dulo",
-      "target": "instrucciones_m\u00f3dulo_i_simulador_estoc\u00e1stico_de_proyectos_monte_carlo",
-      "confidence_score": 1.0
+      "target": "instrucciones_m\u00f3dulo_i_simulador_estoc\u00e1stico_de_proyectos_monte_carlo"
     },
     {
       "relation": "contains",
@@ -2242,9 +2772,9 @@
       "source_file": "instrucciones.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "instrucciones_3_especificaciones_por_m\u00f3dulo",
-      "target": "instrucciones_m\u00f3dulo_ii_analizador_din\u00e1mico_de_proyectos_mutuamente_excluyentes",
-      "confidence_score": 1.0
+      "target": "instrucciones_m\u00f3dulo_ii_analizador_din\u00e1mico_de_proyectos_mutuamente_excluyentes"
     },
     {
       "relation": "contains",
@@ -2252,11 +2782,11 @@
       "source_file": "instrucciones.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "instrucciones_3_especificaciones_por_m\u00f3dulo",
-      "target": "instrucciones_m\u00f3dulo_iii_plataforma_de_valoraci\u00f3n_y_sensibilidad_de_renta_fija_bonos",
-      "confidence_score": 1.0
+      "target": "instrucciones_m\u00f3dulo_iii_plataforma_de_valoraci\u00f3n_y_sensibilidad_de_renta_fija_bonos"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ce45887d58d47d6d2b885cc129a1536452d1d90d"
+  "built_at_commit": "4a10abef1cbed7efa0464b3cdf8307790e20f1b0"
 }
